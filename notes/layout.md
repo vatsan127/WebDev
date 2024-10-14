@@ -1,6 +1,6 @@
-### CSS Layout
+# CSS Layout
 
-#### Box Model
+## Box Model
 
 - **Definition:** When rendering an HTML document, the browser places each element inside a rectangular box consisting of four areas:
 
@@ -16,29 +16,29 @@
 
 - **Margin Collapsing:** When two margins meet (e.g., top and bottom margins of adjacent elements), they combine into a single margin, with the size equal to the largest of the two.
 
-#### HTML Elements: Block vs. Inline
+## HTML Elements: Block vs. Inline
 
-- **Block-Level Elements:** Take up the full width available and start on a new line (e.g., <p>, <div>).
-- **Inline Elements:** Do not start on a new line and occupy only the necessary width (e.g., <span>, <a>, <img>).
+- **Block-Level Elements:** Take up the full width available and start on a new line (e.g., `<p>`, `<div>`).
+- **Inline Elements:** Do not start on a new line and occupy only the necessary width (e.g., `<span>`, `<a>`, `<img>`).
 
-#### Sizing Elements
+## Sizing Elements
 
 - **Width and Height:** Applied to block-level elements; for inline elements, set the `display` property to `inline-block` to apply these properties.
 - **Box-Sizing:** By default, width and height apply to the content area. To include padding and borders, use `box-sizing: border-box`.
 
-#### Handling Overflow
+## Handling Overflow
 
 - **Overflow Property:** Manages what happens when content is too large to fit in an element:
   - `overflow: hidden;` – Hides the overflow.
   - `overflow: scroll;` – Always shows scrollbars.
   - `overflow: auto;` – Shows scrollbars only when needed.
 
-#### Measurement Units
+## Measurement Units
 
 - **Absolute Units:** Fixed units like px, pt, in, cm.
 - **Relative Units:** Adaptable units like %, vw, vh, em, rem.
 
-#### Positioning Elements
+## Positioning Elements
 
 - **Static Positioning (Default):** Elements follow the normal document flow.
 - **Relative Positioning:** Positioned relative to its original position in the flow.
@@ -46,12 +46,12 @@
 - **Fixed Positioning:** Positioned relative to the viewport, staying fixed during scrolling.
 - **Z-Index:** Controls the stacking order of elements.
 
-#### Floating Elements
+## Floating Elements
 
 - **Float Property:** Pushes an element to the left or right, allowing other content to wrap around it.
 - **Collapsing Parent Issue:** Floated elements are "invisible" to their parent container, causing layout issues. Fix this by clearing floated elements.
 
-#### Flexbox (Flexible Box Layout)
+## Flexbox (Flexible Box Layout)
 
 - **Usage:** Aligns items in a row or column.
 - **Common Properties:**
@@ -61,7 +61,7 @@
   - `align-items:` – Aligns items along the cross axis.
   - `flex-wrap:` – Allows wrapping of items.
 
-#### Grid Layout
+## Grid Layout
 
 - **Definition:** A two-dimensional layout system for arranging content in rows and columns.
 - **Grid Template Properties:**
@@ -76,19 +76,19 @@
   - `grid-row:` – Specifies row placement.
   - `grid-area:` – Assigns the item to a named grid area.
 
-#### Hiding Elements
+## Hiding Elements
 
 - **`display: none;`** – Removes the element entirely from the document.
 - **`visibility: hidden;`** – Hides the element but retains its space.
 
-#### Media Queries
+## Media Queries
 
 - **Definition:** Allow different styles for different devices or screen sizes.
 - **Examples:**
   - `@media screen and (min-width: 500px) {}` – Styles for screens wider than 500px.
   - `@media print {}` – Styles for printing.
 
-#### Cheat Sheet for Quick Reference
+## Cheat Sheet for Quick Reference
 
 1. **Box Model:**
 
