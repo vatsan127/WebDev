@@ -1,19 +1,26 @@
 .container {
-  border: 10px 10px;
-  border-color: black;
+    border: 2px solid black;
+    position: relative;
 }
 
 .box {
   height: 100px;
   width: 100px;
+  border: .5px solid black;
+  margin: 1px;
+  
 }
 
 .box1 {
+  position: relative;
+  left: -30px;  
   background-color: red;
 }
 
 .box2 {
+  right: 0;
   background-color: yellow;
+  position: absolute;
 }
 
 .box3 {

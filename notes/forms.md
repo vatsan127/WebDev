@@ -1,20 +1,5 @@
 # FORMS
 
-## Terms
-
-- Check boxes
-- CSS frameworks
-- Data validation
-- Data lists
-- Fieldsets
-- Hidden fields
-- HTTP method
-- Input fields
-- Input controls
-- Radio buttons
-- Sliders
-- Text areas
-
 ## Summary
 
 - **Label elements** make forms more accessible by associating labels with input fields. When a user clicks a label, the related input field gains focus.
