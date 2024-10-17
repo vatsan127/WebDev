@@ -54,12 +54,20 @@
 ## Flexbox (Flexible Box Layout)
 
 - **Usage:** Aligns items in a row or column.
-- **Common Properties:**
+- **Flex Container Properties:** _Applied to Flex Container_
+
   - `display: flex;` – Enables Flexbox on a container.
   - `flex-direction:` – Specifies direction (row, column).
   - `justify-content:` – Aligns items along the main axis.
   - `align-items:` – Aligns items along the cross axis.
   - `flex-wrap:` – Allows wrapping of items.
+
+- **Flex Container Properties:** _Applied to Flex Items_
+  - `flex-wrap:` – Allows wrapping of items.
+  - `flex-basis:` – The Initial Size of the Flex item.
+  - `flex-grow:` – The Growth Factor.
+  - `flex-shrink:` – The Shrink Factor.
+  - `flex: [flex-grow] [flex-shrink] [flex-basis]` – Flex Shorthand
 
 ## Grid Layout
 

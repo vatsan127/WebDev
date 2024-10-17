@@ -1,0 +1,39 @@
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  height: 90vh;
+  border: 2px solid black;
+
+  /* Flex Box */
+  display: flex;
+  flex-direction: row; /*Main Axes*/
+  justify-content: center; /*align Main Axis*/
+  align-items: center; /*align cross Axis*/
+
+  flex-wrap: wrap;
+  /*align whole content in flex when wrap*/
+  /* align-content: center; */
+}
+
+.box {
+  height: 10rem;
+  width: 10rem;
+  font-size: 1.6rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.box-1 {
+  background-color: yellow;
+  align-self: flex-start;
+}
+
+.box-2 {
+  background-color: aquamarine;
+}
+
+.box-3 {
+  background-color: aqua;
+}
