@@ -1,0 +1,40 @@
+/* Main container styling */
+.container {
+  display: grid; /* Use CSS Grid layout for flexible positioning of child elements */
+
+  grid-template-columns: 1fr 1fr 1fr; /* Creates three equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Creates two equal rows */
+
+  /* Shorthand  creates  3 rows and 2 equal columns*/
+  grid-template: 1fr 1fr 1fr / repeat(2, 1fr);
+
+  gap: 2px; /* Space between grid items */
+  border: 2px solid black;
+  height: 90vh;
+
+  justify-items: stretch; /* Aligns items in each grid cell horizontally */
+  align-items: stretch; /* Aligns items in each grid cell vertically */
+  justify-content: center; /* Aligns the entire grid content horizontally */
+
+  grid-template-areas:
+    ". header"
+    "sidebar sidebar"
+    "footer footer";
+}
+
+.box {
+  background-color: gold;
+  border: 2px solid black;
+}
+
+.box-1 {
+  background-color: red;
+
+  grid-column: 1 / -1; /* Box spans all columns */
+  grid-row: 2; /* Box placed in the second row */
+}
+
+.box-3 {
+  grid-area: header; /* Assigns this box to the header area defined in grid-template-areas */
+  background-color: aqua;
+}
