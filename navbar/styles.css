@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+}
+
+.nav-item {
+  /* border: 1px solid black; */
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-link {
+  display: block; /* Ensure full clickable area */
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-logout {
+  background-color: red;
+  margin-left: auto;
+}
+
+.nav-logout:hover {
+  background-color: red;
+}
